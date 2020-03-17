@@ -1,0 +1,236 @@
+.shop__content
+  display: flex
+  margin-top: 155px
+  flex-direction: column
+  &_nav
+    display: flex
+    width: 100%
+    justify-content: space-between
+    font-family: 'Lato'
+    font-size: 13px
+    font-weight: bold
+    color: rgba(34, 34, 34, 1)
+    letter-spacing: -0.01em
+    line-height: 20px
+    text-transform: uppercase
+    &_h3
+      margin-left: 230px
+  &_cart_one
+    margin-top: 43px
+    display: flex
+    &_right
+      width: 100%
+      display: flex
+      align-items: center
+      justify-content: space-between
+      padding-left: 58px
+      padding-right: 21px
+      &>h3
+       font-family: 'Lato'
+       font-size: 13px
+       color: rgba(101, 101, 101, 1)
+      &>a
+        font-family: 'FontAwesome'
+        font-size: 16px
+        color: rgba(192, 192, 192, 1)
+        &:hover
+          color: $color-site
+          transform: scale(1.4)
+          transition: color .3s
+
+      &_number
+        padding-left: 20px
+    &_left-text
+      display: flex
+      flex-direction: column
+      margin-left: 21px
+      width: 500px
+      &_position
+        margin-top: 38px
+        display: flex
+        flex-direction: column
+        &_col
+          display: flex
+          &>h2
+            font-family: 'Lato'
+            font-size: 13px
+            color: rgba(34, 34, 34, 1)
+            text-transform: uppercase
+          &>h3
+            font-family: 'Lato'
+            font-size: 13px
+            color: rgba(87, 87, 87, 1)
+
+          &>h4
+            margin-left: 6px
+            font-family: 'Lato'
+            font-size: 13px
+            font-weight: 300
+            color: rgba(111, 110, 110, 1)
+
+  &_bottom
+    display: flex
+    justify-content: space-between
+    padding-left: 39px
+    padding-right: 39px
+    margin-top: 72px
+    &>a
+      color: rgba(74, 74, 74, 1)
+      font-family: 'Lato'
+      font-size: 14px
+      font-weight: bold
+      padding: 10px
+      color: rgba(74, 74, 74, 1)
+      text-transform: uppercase
+      border: 1px solid #f7f7f8
+      &:hover
+        color: $color-site
+        border: 1px solid $color-site
+
+
+
+
+
+.shopping__bottom
+  margin-top: 63px
+  display: flex
+  &_block-left
+    display: flex
+    flex-direction: column
+    &>h2
+      font-family: 'Lato'
+      font-size: 16px
+      font-weight: 900
+      color: rgba(34, 34, 34, 1)
+      text-transform: uppercase
+    &>a
+      font-family: 'Lato'
+      font-size: 11px
+      font-weight: 900
+      color: rgba(74, 74, 74, 1)
+      text-transform: uppercase
+      margin-top: 23px
+      height: 35px
+      width: 100px
+      background-color: rgba(255, 255, 255, 1)
+      border: 1px solid rgba(234, 234, 234, 1)
+      display: flex
+      justify-content: center
+      align-items: center
+      &:hover
+        color: $color-site_two
+        border: 1px solid $color-site_two
+    &_drop
+      height: 45px
+      width: 355px
+      background-color: rgba(255, 255, 255, 1)
+      border: 1px solid rgba(234, 234, 234, 1)
+      display: flex
+      align-items: center
+      margin-top: 20px
+    &_sum
+      width: 330px
+      display: flex
+      justify-content: space-between
+      padding-left: 18px
+      font-family: 'Lato'
+      font-size: 13px
+      font-weight: 300
+      color: rgba(177, 177, 177, 1)
+  &_block-center
+    margin-left: 36px
+    display: flex
+    flex-direction: column
+    &>h2
+      font-family: 'Lato'
+      font-size: 16px
+      font-weight: 900
+      color: rgba(34, 34, 34, 1)
+      text-transform: uppercase
+    &>p
+      font-family: 'Lato'
+      font-size: 14px
+      font-weight: 600
+      color: rgba(0, 0, 0, 1)
+      margin-top: 28px
+    &_drop
+      height: 45px
+      width: 355px
+      background-color: rgba(255, 255, 255, 1)
+      border: 1px solid rgba(234, 234, 234, 1)
+      display: flex
+      align-items: center
+      margin-top: 24px
+    &>a
+      height: 35px
+      width: 118px
+      background-color: rgba(255, 255, 255, 1)
+      border: 1px solid rgba(234, 234, 234, 1)
+      font-family: 'Lato'
+      font-size: 11px
+      font-weight: bold
+      color: rgba(74, 74, 74, 1)
+      text-transform: uppercase
+      margin-top: 25px
+      display: flex
+      justify-content: center
+      align-items: center
+      &:hover
+        color: $color-site_two
+        border: 1px solid $color-site_two
+  &_block-right
+    width: 360px
+    margin-left: 36px
+    display: flex
+    flex-direction: column
+    justify-content: end
+    &_position
+      display: flex
+      flex-direction: column
+      align-items: flex-end
+      margin-right: 41px
+    &-h3
+      display: flex
+      justify-content: space-between
+      width: 101px
+      font-family: 'Lato'
+      font-size: 10px
+      color: rgba(74, 74, 74, 1)
+      text-transform: uppercase
+    &-h2
+      width: 165px
+      display: flex
+      justify-content: space-between
+      font-family: 'Lato'
+      font-size: 10px
+      font-weight: bold
+      color: rgba(34, 34, 34, 1)
+      text-transform: uppercase
+      margin-top: 14px
+      &>h3
+        font-family: 'Lato'
+        font-size: 16px
+        font-weight: bold
+        color: rgba(241, 109, 127, 1)
+        text-transform: uppercase
+    &_button
+      height: 50px
+      width: 273px
+      background-color: $color-site_two
+      display: flex
+      justify-content: center
+      align-items: center
+      margin-top: 40px
+      margin-left: 44px
+      border: 1px solid $color-site_two
+      &>p
+        font-family: 'Lato'
+        font-size: 16px
+        font-weight: bold
+        color: rgba(255, 255, 255, 1)
+        text-transform: uppercase
+      &:hover
+        background-color: white
+        transition: all .5s
+        &>p
+          color: black
